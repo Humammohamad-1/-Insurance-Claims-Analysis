@@ -1,16 +1,38 @@
-# Insurance Claims Analytics Dashboard (Power BI)
+# 🩺 Insurance Claims Analytics – Power BI Project
 
-This project demonstrates a professional dashboard analyzing synthetic health insurance claims data. It showcases KPIs, member segmentation, diagnosis trends, and city-level claim patterns.
+This project demonstrates a professional Power BI dashboard analyzing **synthetic health insurance claims data**, generated with Python. The dashboard offers visual insights into claims performance, member behavior, and diagnosis trends.
 
-## 📊 Dashboard Highlights
-- Interactive KPIs for total claims, average amounts, and policy/member insights
-- Member profile breakdown by age, gender, and top claimants
-- Diagnosis-level outlier detection using maps and heat visuals
-- Responsive filters for diagnosis and specialty
+---
+
+## 📊 Key Dashboard Features
+
+- **KPI Cards**: Total claims, average amount, total policies, member count
+- **Claims by Specialty, City & Diagnosis**
+- **Monthly trend analysis**
+- **Member profile breakdown**: by age group, gender, top claimants
+- **Geographical insights**: Bubble map and diagnosis heatmaps
+- **Dynamic filters and responsive slicers**
+
+---
+
+## 📁 Files
+
+| File                             | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| `Insurance_Claims_Analysis.pbix`| Power BI dashboard report                        |
+| `assets/`                        | Screenshots of report pages                     |
+| `README.md`                      | This documentation                              |
+
+---
 
 ## 🔧 Tools Used
-- Power BI (DAX, visuals, interactivity)
-- Python (data generation and simulation)
 
-## 🗒️ Note
-All data is synthetic and generated for training/portfolio purposes only.
+- **Power BI** (DAX, visuals, slicers)
+- **Python** (for synthetic data generation)
+- **GitHub** (for version control & hosting)
+
+---
+
+## 🗒️ Disclaimer
+
+_All data shown is synthetic and used for demonstration purposes only._
