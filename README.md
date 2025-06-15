@@ -6,40 +6,48 @@ This project demonstrates a professional Power BI dashboard analyzing **syntheti
 
 ## 📊 Key Dashboard Features
 
-- **KPI Cards**: Total claims, average amount, total policies, member count
-- **Claims by Specialty, City & Diagnosis**
-- **Monthly trend analysis**
-- **Member profile breakdown**: by age group, gender, top claimants
-- **Geographical insights**: Bubble map and diagnosis heatmaps
+- **KPI Cards**: Total claims, average amount, total policies, member count  
+- **Claims by Specialty, City & Diagnosis**  
+- **Monthly trend analysis**  
+- **Member profile breakdown**: by age group, gender, top claimants  
+- **Geographical insights**: Bubble map and diagnosis heatmaps  
 - **Dynamic filters and responsive slicers**
 
 ---
-## 🔬 Python Analysis
 
-Additional analysis using Python and Pandas on the enriched Power BI dataset:
+## 🔬 Python Analysis (Jupyter Notebook)
 
-- Outlier detection
-- Member segmentation
-- Diagnosis distribution
-- Age group trends
+Complementing the Power BI dashboard, this project includes additional analysis performed in Python using a Jupyter Notebook. It leverages the enriched Power BI dataset to explore:
 
-See: `analysis/claims_analysis.py`
+- Outlier detection using Z-score
+- Diagnosis trends by age group and gender
+- Claim distribution by specialty and city
+- Monthly trends and visual summaries
+- Grouped bar charts, boxplots, and annotated line graphs
+
+📘 See: [`Analysis/claims_analysis.ipynb`](./Analysis/claims_analysis.ipynb)
+
+---
 
 ## 📁 Files
 
-| File                             | Description                                      |
-|----------------------------------|--------------------------------------------------|
-| `Insurance_Claims_Analysis.pbix`| Power BI dashboard report                        |
-| `assets/`                        | Screenshots of report pages                     |
-| `README.md`                      | This documentation                              |
+| File                               | Description                                      |
+|------------------------------------|--------------------------------------------------|
+| `Insurance_Claims_Analysis.pbix`   | Power BI dashboard report                        |
+| `Analysis/claims_analysis.ipynb`   | Jupyter Notebook with Python data analysis       |
+| `Analysis/main.py`                 | Python script with data loading & merging logic  |
+| `assets/`                          | Screenshots of report pages                      |
+| `data/`                            | Synthetic CSV exports used in Power BI & Python  |
+| `README.md`                        | This documentation                               |
 
 ---
 
 ## 🔧 Tools Used
 
 - **Power BI** (DAX, visuals, slicers)
-- **Python** (for synthetic data generation)
-- **GitHub** (for version control & hosting)
+- **Python** (pandas, seaborn, matplotlib)
+- **Jupyter Notebook** (exploratory and visual analysis)
+- **GitHub** (for version control & project hosting)
 
 ---
 
