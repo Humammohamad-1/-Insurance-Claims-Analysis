@@ -28,7 +28,7 @@ df['z_score'] = (df['claim_amount'] - df['claim_amount'].mean()) / df['claim_amo
 outliers = df[df['z_score'].abs() > 3]
 
 # Top diagnosis per age group
-# Top diagnosis per age group (no warnings)
+
 age_diag = df.groupby(['age_group', 'diagnosis_description'], observed=True)['claim_id'].count().reset_index()
 top_diag = (
     age_diag.sort_values(['age_group', 'claim_id'], ascending=[True, False])
