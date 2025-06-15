@@ -14,6 +14,16 @@ This project demonstrates a professional Power BI dashboard analyzing **syntheti
 - **Dynamic filters and responsive slicers**
 
 ---
+## 🔬 Python Analysis
+
+Additional analysis using Python and Pandas on the enriched Power BI dataset:
+
+- Outlier detection
+- Member segmentation
+- Diagnosis distribution
+- Age group trends
+
+See: `analysis/claims_analysis.py`
 
 ## 📁 Files
 
